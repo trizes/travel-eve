@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'travel-eve',
     environment: environment,
+    podModulePrefix: 'travel-eve/pods',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
