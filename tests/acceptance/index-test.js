@@ -3,9 +3,9 @@ import moduleForAcceptance from 'travel-eve/tests/helpers/module-for-acceptance'
 
 moduleForAcceptance('Acceptance | events');
 
-test('Events are loaded into the page', function(assert) {
+test('Events are loaded into the main page', function(assert) {
   let events = server.createList('event', 20);
-  visit('/event');
+  visit('/');
 
   andThen(function() {
     assert.equal(find('li').length, 20);
