@@ -7,11 +7,14 @@
   box-shadow: 0 0 0 4px #009999, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
   text-shadow: -1px -1px #aa3030;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .intro {
-  font-size: 21px;
+  font-size: 20px;
   margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .events-button {
