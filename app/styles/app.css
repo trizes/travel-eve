@@ -1,0 +1,48 @@
+#title {
+  text-align: center;
+  color: #fff;
+  background: #009999;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #009999, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #aa3030;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.events-button {
+  background: linear-gradient(to bottom,#3D9CD2 0%,#216F9A 100%);
+  border: 1px solid transparent;
+  border-color: #216F9A;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.events-button:hover {
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(to bottom,#198ACB 0%,#096293 100%);
+}
+
+.events-button:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.events-button:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.call-to-action {
+  margin:auto;
+  text-align: center;
+}
