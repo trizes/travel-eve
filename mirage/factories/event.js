@@ -1,6 +1,7 @@
-import { Factory } from 'ember-cli-mirage';
+import { Factory, faker } from 'ember-cli-mirage';
 
 export default Factory.extend({
-  title(i) { return faker.company.bsBuzz(); },
-  description(i) { return faker.lorem.paragraph(); }
+  description(i) { return faker.lorem.paragraph(); },
+  short_description(i) { return faker.lorem.words(); },
+  title(i) { return faker.address.city(); }
 });

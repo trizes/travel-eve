@@ -5,10 +5,10 @@ moduleForAcceptance('Acceptance | events');
 
 test('Events are loaded into the main page', function(assert) {
   let events = server.createList('event', 20);
-  visit('/');
+  visit('/events');
 
   andThen(function() {
-    assert.equal(find('li').length, 20);
-    assert.equal(find('li:first').text(), events[0].name);
+    assert.equal(find('.list-event').length, 20);
+    assert.equal(find('.event-title:first').text(), events[0].title);
   });
 });

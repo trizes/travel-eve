@@ -6,7 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('event');
+  this.route('events', function() {
+    this.route('event', { path: '/:event_id' });
+  });
   this.route('404', { path: '/*wildcard' });
 });
 
