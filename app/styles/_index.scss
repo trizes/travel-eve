@@ -27,22 +27,19 @@
   padding: 10px 10px;
   font-size: 20px;
   color: #fff;
-}
-
-.events-button:hover {
-  text-decoration: none;
-  color: #fff;
-  background: linear-gradient(to bottom,#198ACB 0%,#096293 100%);
-}
-
-.events-button:focus {
-  text-decoration: none;
-  color: #fff;
-}
-
-.events-button:active {
-  text-decoration: none;
-  color: #fff;
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to bottom,#198ACB 0%,#096293 100%);
+  }
+  &:focus {
+    text-decoration: none;
+    color: #fff;
+  }
+  &:active {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .call-to-action {

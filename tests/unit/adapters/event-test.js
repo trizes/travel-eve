@@ -6,7 +6,7 @@ moduleFor('adapter:event', 'Unit | Adapter | event', {
 });
 
 // Replace this with your real tests.
-test('it exists', function(assert) {
+test('it creates the namespace', function(assert) {
   let adapter = this.subject();
-  assert.ok(adapter);
+  assert.equal(adapter.namespace, 'api');
 });

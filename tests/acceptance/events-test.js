@@ -3,6 +3,15 @@ import moduleForAcceptance from 'travel-eve/tests/helpers/module-for-acceptance'
 
 moduleForAcceptance('Acceptance | events');
 
+test('visiting /events', function(assert) {
+  server.createList('events', 1);
+  visit('/events');
+
+  andThen(function() {
+    assert.equal(currentURL(), '/events');
+  });
+});
+
 test('Events are loaded into the main page', function(assert) {
   let events = server.createList('event', 20);
   visit('/events');
